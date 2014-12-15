@@ -1,0 +1,452 @@
+h1, h3{
+	color:black;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-weight: 400;
+	font-family: 'Sintony', sans-serif; 
+	
+}
+
+h1{
+	font-size: 2.5em;
+}
+
+h3{
+	font-size:3.5em;
+	line-height:150%;
+}
+
+.title {
+	font-size: 1.5em;
+	color: #939598;
+	font-family: 'Sintony', sans-serif;
+}
+
+#gray {
+	color: #939598;
+	font-family: 'Sintony', sans-serif;
+	font-size: 2em;
+	margin-top: 0.3em;
+	margin-bottom: 0.1em;
+	opacity: 0.75;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited, a:link{
+	color:#000000;
+}
+
+a:hover{
+	color: #18A856;
+	text-decoration: none;
+}
+
+
+#container{
+	width: 1100px;
+	height: auto;
+	margin: 0 auto 0 auto;
+
+}
+
+#header{
+	height: 100px;
+	width: 85%;
+	border-bottom: 2px solid black;
+	margin-left: 68px
+}
+
+#name{
+	float: left;
+	height: 100px;
+	width: 300px;
+	padding-left: 10px;
+	/*padding-top: 30px;*/
+}
+
+#menu{
+	float: right;
+	height:auto;
+	width:500px;
+	padding-top: 60px;
+}
+
+.link{
+	float: left;
+	height: 30px;
+	width: 150px;
+	text-align: right;
+	font-family: 'Sintony', sans-serif;
+	font-weight: 400;
+	font-size: 100%;
+	text-decoration: none;
+	
+}
+
+.visited {
+	color: #939598;
+}
+
+#body{
+	
+	width: 100%;
+	height: auto;
+}
+
+#center{
+	width: 800px;
+	height: 420px;
+	margin: 40px auto 0 auto ;
+}
+
+#profile{
+	float: left;
+	width: 370px;
+	height: 370px;
+	background-image: url('./images/profile_montreal.jpg');
+	background-size: auto 370px;
+	background-position: -60px 0;
+	border-radius: 50%;
+	
+
+}
+
+#tag{
+	float: right;
+	width:400px;
+	height:370px;
+	padding-left: 5px;
+	margin: 50px 0 0 0;
+
+}
+
+#copyright{
+	float:right;
+	font-family: 'Sintony', sans-serif;
+	font-weight: 400;
+	font-size: 0.8em;
+	clear: both;
+}
+
+/*--------PROJECTS-----------*/
+
+#table {
+	margin-top: 20px;
+	width:100%;
+}
+
+td {
+	height: 25%;
+	border: 1px red dashed;
+}
+
+tr{
+	border: 1px red dashed;
+}
+
+.section {
+	width: 88%;
+	margin: auto;
+}
+
+.description {
+	width: 100%;
+	height: 300px;
+}
+#projectBox {
+	height: 60px;
+	width:88%;
+	margin-top: 45px;
+}
+
+.san-xName {
+	width: 170px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+
+}
+
+.toyName {
+	width: 370px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+}
+
+.functionName {
+	width: 445px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+
+}
+
+.latheName {
+	width: 400px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+
+}
+
+.robotName {
+	width: 400px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+}
+
+.techfairName {
+	width: 530px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+}
+
+.crayonName {
+	width: 475px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+}
+
+.dlabName {
+	width: 500px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+}
+
+.gummyName {
+	width: 640px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+}
+
+.spattyName {
+	width: 440px;
+	height: 55px;
+	margin-left: 70px;
+	float:left;
+}
+
+.specbox {
+	height: 55px;
+	width: auto;
+	float:left;
+}
+
+.spectop {
+	font-size: 1em;
+	font-family:'Sintony', sans-serif;
+	color: #939598;
+	margin: 13px 0 0 0;
+}
+
+.specbottom {
+	font-size: 1em;
+	font-family:'Sintony', sans-serif;
+	color: #939598;
+	margin: 2px 0 0 0;
+}
+
+.gummy-spectop {
+	font-size: 0.75em;
+	font-family:'Sintony', sans-serif;
+	color: #939598;
+	margin: 9px 0 0 0;
+}
+
+.gummy-specbottom {
+	font-size: 0.75em;
+	font-family:'Sintony', sans-serif;
+	color: #939598;
+	margin: 2px 0 0 0;
+}
+
+.thumbnails{
+	width: 80%;
+	height: auto;
+	margin:auto;
+}
+
+.row {
+	width: 100%;
+	height: auto;
+}
+
+.top-row {
+	width: 100%;
+	height: 270px;
+}
+.big-thumb {
+	display: inline-block;
+	float:left;
+	width: 400px;
+	height: 267px;
+	margin-right: 25px;
+
+}
+
+.big-thumb:hover {
+	background-position: 0px -269px;
+}
+
+#san-x {
+	background-image: url('./images/san-x_sprite.jpg');
+}
+
+
+#robotfed {
+	background-image: url('./images/robotfed_sprite.jpg');
+
+}
+
+.small-thumb {
+	display: inline-block;
+	width: 175px;
+	height: 175px;
+}
+
+.small-thumb:hover {
+	background-position: 0px -175px;
+}
+
+#spray {
+	background-image: url('./images/spray_sprite.jpg');
+	margin-right: 19px;
+	margin-bottom: 18px;
+}
+
+#function {
+	background-image: url('./images/function_sprite.jpg');
+	margin: 0 18px 18px 18px;
+}
+
+#lathe {
+	background-image:  url('./images/lathe_sprite.jpg');
+	margin: 0 18px 18px 18px;
+}
+
+#dlab {
+	background-image: url('./images/dlab_sprite.jpg');
+	margin-left: 19px;
+	margin-bottom: 18px;
+}
+
+#gummy {
+	background-image: url('./images/gummy_sprite.jpg');
+	margin: 18px 19px 18px 0;
+}
+
+#crayon {
+	background-image: url('./images/crayon_sprite.jpg');
+	margin: 18px 18px 18px 18px;
+}
+
+#yoyo {
+	background-image: url('./images/yoyo_sprite.jpg');
+	margin: 18px 18px 18px 18px;
+}
+
+#techfair {
+	background-image: url('./images/techfair_sprite.jpg');
+	margin: 18px 0 18px 19px;
+}
+
+#toy {
+	background-image:url('./images/toy_sprite.jpg');
+	margin-right: 19px;
+	margin-top: 18px;
+}
+
+#spatty {
+	background-image: url('./images/spatty_sprite.jpg');
+	margin: 18px 18px 0 18px;
+}
+
+#san-xHover {
+	width:175px;
+	height:175px;
+	color: black;
+	display:none;
+}
+
+#san-xText {
+	color: white;
+	display:none;
+}
+
+
+.grid {
+	float: left;
+	margin: 10px 5px 0 5px;
+}
+
+#san-x-grid {
+	width: 100%;
+	height: 550px;
+}
+
+#toy-grid {
+	width: 100%;
+	height: 450px;
+}
+
+#title {
+	margin: 5px 15px 0 0;
+	font-family:'Sintony', sans-serif;
+	font-size: 3em;
+}
+
+#gummy-title {
+	margin: 5px 15px 0 0;
+	font-family:'Sintony', sans-serif;
+	font-size: 2em;
+}
+
+.summary {
+	font-size: 0.8em;
+	font-family: 'Sintony', sans-serif;
+	color: black;
+}
+/* -----ABOUT ME------ */
+#aboutpic {
+	background: url('./images/sausolito2.jpg');
+	width: 300px;
+	height: 500px;
+	float:left;
+	margin-top: 40px;
+	background-size: auto 500px;
+}
+
+#abouttext{
+	width: 600px;
+	height: 500px;
+	margin-top: 40px;
+	margin-left: 25px;
+	float: left;
+}
+
+#tagline, #tagline2, #tagline3 {
+	font-family: 'Sintony', sans-serif;
+	font-size: 3em;
+	color: black
+}
+
+#tagline2 {
+	font-size: 1.5em;
+}
+
+#tagline3 {
+	font-size:0.8em;
+}
+#special {
+	font-size:1em
+	color: #18A856;
+}
